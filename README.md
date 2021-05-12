@@ -1,2 +1,0 @@
-# factoria5
-Curriculum
