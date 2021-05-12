@@ -54,13 +54,13 @@ h3
 .experiens 
 {
     padding: 5px;            
-    margin-left: 130px;
+    margin-left: 110px;
     margin-top: 310px;
     position: absolute;
 }
 .educa 
 {
-    margin-left: 500px;
+    margin-left: 510px;
     margin-top: 310px;
     position: absolute;
 }
@@ -205,4 +205,5 @@ footer
 .list
 {
     list-style: none;
+    border-left: thick solid rgb(25, 235, 235);
 }
