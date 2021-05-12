@@ -202,3 +202,7 @@ footer
     position: absolute;
     transform: translate(130%, 140%);
 }
+.list
+{
+    list-style: none;
+}
