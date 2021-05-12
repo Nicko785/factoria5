@@ -159,13 +159,14 @@
             border-radius: 5px;
             border-spacing: 30px 10px;
         }
-        .circ {
+       /* .circ {
             background-color: #a6f2f5;
             border-radius: 50%;
             width: 300px;
             height: 300px;
             position: absolute;
             transform: translate(-40%, -40%);
+            */cd
         }
         .circul {
             background-color: #86f3e1;
