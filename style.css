@@ -44,6 +44,7 @@ h3
     margin-left: 360px;
     margin-top: 120px;
     position: absolute;
+   
 }
 .texto 
 {
@@ -55,33 +56,45 @@ h3
 }
 .experiens 
 {
-    padding: 5px;            
-    margin-left: 110px;
+           
+    margin-left: 80px;
     margin-top: 310px;
     position: absolute;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    height: 260px;
+    width: 360px;
 }
 .educa 
 {
-    margin-left: 510px;
+    margin-left: 540px;
     margin-top: 310px;
-    box-shadow:chocolate;
     position: absolute;
+    border-radius: 10px;
+    background-color: crimson;
+    height: 260px;
+    width: 310px;
  }
 
 .programingSkill 
 {
-    margin-left: 130px;
-    margin-top: 575px;
+    margin-left:90px;
+    margin-top: 610px;
     position: absolute;
     background-color: coral;
+    height: 260px;
+    width: 360px;
+    border-radius: 10px;
 }
 .fav 
 {
-    margin-left: 500px;
-    margin-top: 575px;
+    margin-left: 540px;
+    margin-top: 610px;
     position: absolute;
     background-color: white;
     border-radius: 15px;
+    height: 260px;
+    width: 310px;
     background-color: cornflowerblue;
 }
 .color1 
