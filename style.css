@@ -23,11 +23,13 @@ h3
 {
     margin-top: 70px;
     margin-left: 80px;
-    width: 220px;
+    width: 200px;
     height: 200px;
     position: absolute;
     border-radius: 10px;
 }
+
+
 .nom 
 {
     height: 100px;
@@ -62,13 +64,16 @@ h3
 {
     margin-left: 510px;
     margin-top: 310px;
+    box-shadow:chocolate;
     position: absolute;
-}
+ }
+
 .programingSkill 
 {
     margin-left: 130px;
     margin-top: 575px;
     position: absolute;
+    background-color: coral;
 }
 .fav 
 {
@@ -77,6 +82,7 @@ h3
     position: absolute;
     background-color: white;
     border-radius: 15px;
+    background-color: cornflowerblue;
 }
 .color1 
 {
