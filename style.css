@@ -2,8 +2,8 @@ body
 {
 background-color: hsl(212, 48%, 58%);
 font-family:'arial';
-font-weight: bold;
-font-size: 14px
+font-weight:12px;
+font-size: 13px
 }
 section 
 {
@@ -27,75 +27,83 @@ h3
     height: 200px;
     position: absolute;
     border-radius: 10px;
+    box-shadow: 10px 10px 30px -5px rgba(0, 0, 0, 0.2);
 }
-
-
 .nom 
 {
-    height: 100px;
-    margin-left: 360px;
-    margin-top: 80px;
     position: absolute;
+    padding-left: 40px;
 }
 .subt 
 {
-    color: hsl(192, 95%, 57%);
-    height: 100px;
-    margin-left: 360px;
-    margin-top: 120px;
+    color: rgb(73, 112, 230);
     position: absolute;
-   
+    margin-top: 50px;
+    padding-left: 40px;
 }
 .texto 
 {
-    height: 100px;
-    width: 450px;
-    margin-left: 360px;
-    margin-top: 170px;
     position: absolute;
+    margin-top:100px;
+    width:300px;
+    padding-left: 40px;
 }
 .experiens 
 {
            
     margin-left: 80px;
-    margin-top: 310px;
+    margin-top: 320px;
     position: absolute;
     border-radius: 10px;
-    background-color: cornflowerblue;
     height: 260px;
     width: 360px;
+    padding-left: 30px;
+    padding-top:10px;
+    box-shadow: 10px 10px 30px -5px rgba(0, 0, 0, 0.2);
+
 }
 .educa 
 {
-    margin-left: 540px;
-    margin-top: 310px;
+    margin-left: 510px;
+    margin-top: 320px;
     position: absolute;
     border-radius: 10px;
-    background-color: crimson;
     height: 260px;
     width: 310px;
+    padding-left: 30px;
+    padding-top:10px;
+    box-shadow: 10px 10px 30px -5px rgba(0, 0, 0, 0.2);
  }
-
+.ne
+{
+    font-weight: 700;
+    font-size: 15px;
+}
 .programingSkill 
 {
-    margin-left:90px;
-    margin-top: 610px;
+    margin-left:80px;
+    margin-top: 620px;
     position: absolute;
-    background-color: coral;
     height: 260px;
     width: 360px;
     border-radius: 10px;
+    padding-left: 30px;
+    box-shadow: 10px 10px 30px -5px rgba(0, 0, 0, 0.2);
 }
 .fav 
 {
-    margin-left: 540px;
-    margin-top: 610px;
+    flex-direction: column;
+    align-content: center;
+    display: flex;
+    margin-left: 510px;
+    margin-top: 620px;
     position: absolute;
-    background-color: white;
     border-radius: 15px;
     height: 260px;
     width: 310px;
-    background-color: cornflowerblue;
+    padding-left: 30px;
+    box-shadow: 10px 10px 30px -5px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255,255 ,255 , 0.5)
 }
 .color1 
 {
@@ -191,8 +199,8 @@ h3
 }
 footer 
 {
-    margin-left: 50px;
-    margin-top: 900px;
+    margin-left: 90px;
+    margin-top: 910px;
     position: absolute;
     background-color: white;
     border-radius: 10px;
@@ -219,10 +227,37 @@ footer
     width: 500px;
     height: 500px;
     position: absolute;
-    transform: translate(130%, 140%);
+    transform: translate(130%, 150%);
 }
 .list
 {
     list-style: none;
     border-left: thick solid rgb(25, 235, 235);
+    padding-left: 15px;
+}
+.fi1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 280px;
+}
+.fi2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 280px;
+}
+.info
+{
+    margin-top: 70px;
+    margin-left: 350px;
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    position: absolute;
+    box-shadow: 10px 10px 30px -5px rgba(0, 0, 0, 0.2);
 }
