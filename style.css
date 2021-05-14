@@ -3,7 +3,7 @@ body
 background-color: hsl(212, 48%, 58%);
 font-family:'arial';
 font-weight:12px;
-font-size: 12px
+font-size: 13px
 }
 section 
 {
@@ -199,7 +199,7 @@ h3
 }
 footer 
 {
-    margin-left: 110px;
+    margin-left: 90px;
     margin-top: 910px;
     position: absolute;
     background-color: white;
@@ -250,6 +250,8 @@ footer
     justify-content: space-evenly;
     background-color: white;
     width: 280px;
+    border-radius: 10px;
+
 }
 .info
 {
